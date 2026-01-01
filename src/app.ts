@@ -8,7 +8,7 @@ import compression from 'compression';
 import cookieParser from 'cookie-parser';
 import { envs } from '@/config';
 import { AppRoute } from './types';
-import MongoConnect from '@/database/dbConnect';
+import MongoConnect from '@/lib/database/dbConnect';
 import { Server, IncomingMessage, ServerResponse } from 'http';
 import { errorHandler } from '@/middlewares/error.handler.middleware';
 
