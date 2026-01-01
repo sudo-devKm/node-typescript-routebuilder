@@ -6,8 +6,8 @@ dist/
 build
 
 # editor configuration
-.vscode
-!.vscode/lunch.json
+.vscode/
+!.vscode/launch.json
 
 # Package lock file
 package-lock.json

@@ -38,6 +38,6 @@ module.exports = [
   },
 
   {
-    ignores: ['dist/', 'node_modules/', '**/*.test.ts'],
+    ignores: ['dist/', 'node_modules/', '**/*.test.ts', 'eslint.config.cjs'],
   },
 ];
